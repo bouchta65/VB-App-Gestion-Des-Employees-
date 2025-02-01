@@ -1,0 +1,1095 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class recherche
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(recherche))
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.GunaGradientButton9 = New Guna.UI.WinForms.GunaGradientButton()
+        Me.GunaGradientButton6 = New Guna.UI.WinForms.GunaGradientButton()
+        Me.GunaGradientButton5 = New Guna.UI.WinForms.GunaGradientButton()
+        Me.GunaGradientButton4 = New Guna.UI.WinForms.GunaGradientButton()
+        Me.GunaGradientButton1 = New Guna.UI.WinForms.GunaGradientButton()
+        Me.GunaGradientButton2 = New Guna.UI.WinForms.GunaGradientButton()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.TabPage18 = New System.Windows.Forms.TabPage()
+        Me.TabPage17 = New System.Windows.Forms.TabPage()
+        Me.TabPage16 = New System.Windows.Forms.TabPage()
+        Me.TabPage15 = New System.Windows.Forms.TabPage()
+        Me.TabPage14 = New System.Windows.Forms.TabPage()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.GunaLineTextBox4 = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.GunaLineTextBox3 = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.GunaLineTextBox2 = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.GunaLineTextBox1 = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.txt_add = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txt_jf = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.txt_etatfam = New Guna.UI.WinForms.GunaComboBox()
+        Me.date_nais = New Guna.UI.WinForms.GunaDateTimePicker()
+        Me.txt_nom = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.prenom = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.GunaDateTimePicker1 = New Guna.UI.WinForms.GunaDateTimePicker()
+        Me.GunaComboBox1 = New Guna.UI.WinForms.GunaComboBox()
+        Me.GunaLineTextBox5 = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.GunaLineTextBox7 = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.GunaLineTextBox6 = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.GunaLineTextBox8 = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.GunaComboBox2 = New Guna.UI.WinForms.GunaComboBox()
+        Me.GunaDateTimePicker2 = New Guna.UI.WinForms.GunaDateTimePicker()
+        Me.GunaLineTextBox9 = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.GunaGradientButton3 = New Guna.UI.WinForms.GunaGradientButton()
+        Me.GunaGradientButton7 = New Guna.UI.WinForms.GunaGradientButton()
+        Me.GunaLineTextBox10 = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.GunaLineTextBox11 = New Guna.UI.WinForms.GunaLineTextBox()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.GunaGradientButton8 = New Guna.UI.WinForms.GunaGradientButton()
+        Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage18.SuspendLayout()
+        Me.TabPage17.SuspendLayout()
+        Me.TabControl1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(53, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.GunaGradientButton9)
+        Me.Panel1.Controls.Add(Me.GunaGradientButton6)
+        Me.Panel1.Controls.Add(Me.GunaGradientButton5)
+        Me.Panel1.Controls.Add(Me.GunaGradientButton4)
+        Me.Panel1.Controls.Add(Me.GunaGradientButton1)
+        Me.Panel1.Controls.Add(Me.GunaGradientButton2)
+        Me.Panel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Panel1.Location = New System.Drawing.Point(1128, 84)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(178, 631)
+        Me.Panel1.TabIndex = 125
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Goudy Stout", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(239, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(327, 20)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(494, 66)
+        Me.Label2.TabIndex = 68
+        Me.Label2.Text = "المحكمة الإبتدائية طانطان"
+        Me.Label2.UseMnemonic = False
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(159, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(53, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.Label2)
+        Me.Panel2.Controls.Add(Me.PictureBox2)
+        Me.Panel2.Location = New System.Drawing.Point(-3, -7)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(1306, 95)
+        Me.Panel2.TabIndex = 126
+        '
+        'GunaGradientButton9
+        '
+        Me.GunaGradientButton9.AnimationHoverSpeed = 0.07!
+        Me.GunaGradientButton9.AnimationSpeed = 0.03!
+        Me.GunaGradientButton9.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGradientButton9.BaseColor1 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton9.BaseColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton9.BorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton9.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaGradientButton9.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaGradientButton9.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGradientButton9.ForeColor = System.Drawing.Color.Black
+        Me.GunaGradientButton9.Image = CType(resources.GetObject("GunaGradientButton9.Image"), System.Drawing.Image)
+        Me.GunaGradientButton9.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaGradientButton9.Location = New System.Drawing.Point(13, 281)
+        Me.GunaGradientButton9.Name = "GunaGradientButton9"
+        Me.GunaGradientButton9.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton9.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton9.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton9.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaGradientButton9.OnHoverImage = Nothing
+        Me.GunaGradientButton9.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaGradientButton9.Radius = 20
+        Me.GunaGradientButton9.Size = New System.Drawing.Size(144, 51)
+        Me.GunaGradientButton9.TabIndex = 76
+        Me.GunaGradientButton9.Text = "التنقيط"
+        '
+        'GunaGradientButton6
+        '
+        Me.GunaGradientButton6.AnimationHoverSpeed = 0.07!
+        Me.GunaGradientButton6.AnimationSpeed = 0.03!
+        Me.GunaGradientButton6.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGradientButton6.BaseColor1 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton6.BaseColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton6.BorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton6.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaGradientButton6.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaGradientButton6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGradientButton6.ForeColor = System.Drawing.Color.Black
+        Me.GunaGradientButton6.Image = CType(resources.GetObject("GunaGradientButton6.Image"), System.Drawing.Image)
+        Me.GunaGradientButton6.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaGradientButton6.Location = New System.Drawing.Point(13, 435)
+        Me.GunaGradientButton6.Name = "GunaGradientButton6"
+        Me.GunaGradientButton6.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton6.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton6.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton6.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaGradientButton6.OnHoverImage = Nothing
+        Me.GunaGradientButton6.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaGradientButton6.Radius = 20
+        Me.GunaGradientButton6.Size = New System.Drawing.Size(144, 51)
+        Me.GunaGradientButton6.TabIndex = 75
+        Me.GunaGradientButton6.Text = "إحصائيات"
+        '
+        'GunaGradientButton5
+        '
+        Me.GunaGradientButton5.AnimationHoverSpeed = 0.07!
+        Me.GunaGradientButton5.AnimationSpeed = 0.03!
+        Me.GunaGradientButton5.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGradientButton5.BaseColor1 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton5.BaseColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton5.BorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton5.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaGradientButton5.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaGradientButton5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGradientButton5.ForeColor = System.Drawing.Color.Black
+        Me.GunaGradientButton5.Image = CType(resources.GetObject("GunaGradientButton5.Image"), System.Drawing.Image)
+        Me.GunaGradientButton5.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaGradientButton5.Location = New System.Drawing.Point(13, 356)
+        Me.GunaGradientButton5.Name = "GunaGradientButton5"
+        Me.GunaGradientButton5.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton5.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton5.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton5.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaGradientButton5.OnHoverImage = Nothing
+        Me.GunaGradientButton5.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaGradientButton5.Radius = 20
+        Me.GunaGradientButton5.Size = New System.Drawing.Size(144, 51)
+        Me.GunaGradientButton5.TabIndex = 74
+        Me.GunaGradientButton5.Text = "معلومات"
+        '
+        'GunaGradientButton4
+        '
+        Me.GunaGradientButton4.AnimationHoverSpeed = 0.07!
+        Me.GunaGradientButton4.AnimationSpeed = 0.03!
+        Me.GunaGradientButton4.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGradientButton4.BaseColor1 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton4.BaseColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton4.BorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton4.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaGradientButton4.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaGradientButton4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGradientButton4.ForeColor = System.Drawing.Color.Black
+        Me.GunaGradientButton4.Image = CType(resources.GetObject("GunaGradientButton4.Image"), System.Drawing.Image)
+        Me.GunaGradientButton4.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaGradientButton4.Location = New System.Drawing.Point(13, 132)
+        Me.GunaGradientButton4.Name = "GunaGradientButton4"
+        Me.GunaGradientButton4.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton4.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton4.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton4.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaGradientButton4.OnHoverImage = Nothing
+        Me.GunaGradientButton4.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaGradientButton4.Radius = 20
+        Me.GunaGradientButton4.Size = New System.Drawing.Size(144, 51)
+        Me.GunaGradientButton4.TabIndex = 73
+        Me.GunaGradientButton4.Text = "الديمومة"
+        '
+        'GunaGradientButton1
+        '
+        Me.GunaGradientButton1.AnimationHoverSpeed = 0.07!
+        Me.GunaGradientButton1.AnimationSpeed = 0.03!
+        Me.GunaGradientButton1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGradientButton1.BaseColor1 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton1.BaseColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton1.BorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton1.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaGradientButton1.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaGradientButton1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGradientButton1.ForeColor = System.Drawing.Color.Black
+        Me.GunaGradientButton1.Image = CType(resources.GetObject("GunaGradientButton1.Image"), System.Drawing.Image)
+        Me.GunaGradientButton1.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaGradientButton1.Location = New System.Drawing.Point(13, 210)
+        Me.GunaGradientButton1.Name = "GunaGradientButton1"
+        Me.GunaGradientButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton1.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton1.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaGradientButton1.OnHoverImage = Nothing
+        Me.GunaGradientButton1.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaGradientButton1.Radius = 20
+        Me.GunaGradientButton1.Size = New System.Drawing.Size(144, 51)
+        Me.GunaGradientButton1.TabIndex = 72
+        Me.GunaGradientButton1.Text = "الرخص     "
+        '
+        'GunaGradientButton2
+        '
+        Me.GunaGradientButton2.AnimationHoverSpeed = 0.07!
+        Me.GunaGradientButton2.AnimationSpeed = 0.03!
+        Me.GunaGradientButton2.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGradientButton2.BaseColor1 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton2.BaseColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton2.BorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton2.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaGradientButton2.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaGradientButton2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGradientButton2.ForeColor = System.Drawing.Color.Black
+        Me.GunaGradientButton2.Image = CType(resources.GetObject("GunaGradientButton2.Image"), System.Drawing.Image)
+        Me.GunaGradientButton2.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaGradientButton2.Location = New System.Drawing.Point(13, 55)
+        Me.GunaGradientButton2.Name = "GunaGradientButton2"
+        Me.GunaGradientButton2.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton2.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton2.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton2.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaGradientButton2.OnHoverImage = Nothing
+        Me.GunaGradientButton2.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaGradientButton2.Radius = 20
+        Me.GunaGradientButton2.Size = New System.Drawing.Size(144, 51)
+        Me.GunaGradientButton2.TabIndex = 70
+        Me.GunaGradientButton2.Text = "إضافة موظف"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.GestionDesEmployees.My.Resources.Resources.download_removebg_preview
+        Me.PictureBox2.Location = New System.Drawing.Point(1148, 15)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(147, 79)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 1
+        Me.PictureBox2.TabStop = False
+        '
+        'TabPage18
+        '
+        Me.TabPage18.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(180, Byte), Integer))
+        Me.TabPage18.Controls.Add(Me.GunaGradientButton7)
+        Me.TabPage18.Controls.Add(Me.GunaLineTextBox4)
+        Me.TabPage18.Controls.Add(Me.GunaLineTextBox3)
+        Me.TabPage18.Controls.Add(Me.GunaLineTextBox2)
+        Me.TabPage18.Controls.Add(Me.GunaLineTextBox1)
+        Me.TabPage18.Controls.Add(Me.txt_add)
+        Me.TabPage18.Controls.Add(Me.Label9)
+        Me.TabPage18.Controls.Add(Me.Label8)
+        Me.TabPage18.Controls.Add(Me.txt_jf)
+        Me.TabPage18.Controls.Add(Me.txt_etatfam)
+        Me.TabPage18.Controls.Add(Me.date_nais)
+        Me.TabPage18.Controls.Add(Me.txt_nom)
+        Me.TabPage18.Controls.Add(Me.Label7)
+        Me.TabPage18.Controls.Add(Me.Label6)
+        Me.TabPage18.Controls.Add(Me.Label5)
+        Me.TabPage18.Controls.Add(Me.Label4)
+        Me.TabPage18.Controls.Add(Me.Label3)
+        Me.TabPage18.Controls.Add(Me.prenom)
+        Me.TabPage18.Controls.Add(Me.Label1)
+        Me.TabPage18.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabPage18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.TabPage18.Location = New System.Drawing.Point(4, 32)
+        Me.TabPage18.Name = "TabPage18"
+        Me.TabPage18.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage18.Size = New System.Drawing.Size(1122, 515)
+        Me.TabPage18.TabIndex = 17
+        Me.TabPage18.Text = "معلومات شخصية"
+        '
+        'TabPage17
+        '
+        Me.TabPage17.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(180, Byte), Integer))
+        Me.TabPage17.Controls.Add(Me.GunaGradientButton3)
+        Me.TabPage17.Controls.Add(Me.GunaDateTimePicker1)
+        Me.TabPage17.Controls.Add(Me.GunaComboBox1)
+        Me.TabPage17.Controls.Add(Me.GunaLineTextBox5)
+        Me.TabPage17.Controls.Add(Me.GunaLineTextBox7)
+        Me.TabPage17.Controls.Add(Me.Label10)
+        Me.TabPage17.Controls.Add(Me.GunaLineTextBox6)
+        Me.TabPage17.Controls.Add(Me.GunaLineTextBox8)
+        Me.TabPage17.Controls.Add(Me.Label11)
+        Me.TabPage17.Controls.Add(Me.Label12)
+        Me.TabPage17.Controls.Add(Me.GunaComboBox2)
+        Me.TabPage17.Controls.Add(Me.GunaDateTimePicker2)
+        Me.TabPage17.Controls.Add(Me.GunaLineTextBox9)
+        Me.TabPage17.Controls.Add(Me.Label13)
+        Me.TabPage17.Controls.Add(Me.Label14)
+        Me.TabPage17.Controls.Add(Me.Label15)
+        Me.TabPage17.Controls.Add(Me.Label16)
+        Me.TabPage17.Controls.Add(Me.Label17)
+        Me.TabPage17.Controls.Add(Me.Label18)
+        Me.TabPage17.Location = New System.Drawing.Point(4, 32)
+        Me.TabPage17.Name = "TabPage17"
+        Me.TabPage17.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage17.Size = New System.Drawing.Size(1122, 515)
+        Me.TabPage17.TabIndex = 16
+        Me.TabPage17.Text = "المهام"
+        '
+        'TabPage16
+        '
+        Me.TabPage16.Location = New System.Drawing.Point(4, 32)
+        Me.TabPage16.Name = "TabPage16"
+        Me.TabPage16.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage16.Size = New System.Drawing.Size(1122, 515)
+        Me.TabPage16.TabIndex = 15
+        Me.TabPage16.Text = "الرخص"
+        Me.TabPage16.UseVisualStyleBackColor = True
+        '
+        'TabPage15
+        '
+        Me.TabPage15.Location = New System.Drawing.Point(4, 32)
+        Me.TabPage15.Name = "TabPage15"
+        Me.TabPage15.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage15.Size = New System.Drawing.Size(1122, 497)
+        Me.TabPage15.TabIndex = 14
+        Me.TabPage15.Text = "الديمومة"
+        Me.TabPage15.UseVisualStyleBackColor = True
+        '
+        'TabPage14
+        '
+        Me.TabPage14.Location = New System.Drawing.Point(4, 32)
+        Me.TabPage14.Name = "TabPage14"
+        Me.TabPage14.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage14.Size = New System.Drawing.Size(1122, 497)
+        Me.TabPage14.TabIndex = 13
+        Me.TabPage14.Text = "النقط المحصل عليها"
+        Me.TabPage14.UseVisualStyleBackColor = True
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Controls.Add(Me.TabPage18)
+        Me.TabControl1.Controls.Add(Me.TabPage17)
+        Me.TabControl1.Controls.Add(Me.TabPage16)
+        Me.TabControl1.Controls.Add(Me.TabPage15)
+        Me.TabControl1.Controls.Add(Me.TabPage14)
+        Me.TabControl1.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabControl1.Location = New System.Drawing.Point(-3, 164)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TabControl1.RightToLeftLayout = True
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(1130, 551)
+        Me.TabControl1.TabIndex = 127
+        '
+        'GunaLineTextBox4
+        '
+        Me.GunaLineTextBox4.BackColor = System.Drawing.Color.White
+        Me.GunaLineTextBox4.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaLineTextBox4.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaLineTextBox4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLineTextBox4.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaLineTextBox4.Location = New System.Drawing.Point(32, 317)
+        Me.GunaLineTextBox4.Name = "GunaLineTextBox4"
+        Me.GunaLineTextBox4.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaLineTextBox4.SelectedText = ""
+        Me.GunaLineTextBox4.Size = New System.Drawing.Size(236, 30)
+        Me.GunaLineTextBox4.TabIndex = 109
+        '
+        'GunaLineTextBox3
+        '
+        Me.GunaLineTextBox3.BackColor = System.Drawing.Color.White
+        Me.GunaLineTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaLineTextBox3.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaLineTextBox3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLineTextBox3.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaLineTextBox3.Location = New System.Drawing.Point(32, 240)
+        Me.GunaLineTextBox3.Name = "GunaLineTextBox3"
+        Me.GunaLineTextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaLineTextBox3.SelectedText = ""
+        Me.GunaLineTextBox3.Size = New System.Drawing.Size(236, 30)
+        Me.GunaLineTextBox3.TabIndex = 108
+        '
+        'GunaLineTextBox2
+        '
+        Me.GunaLineTextBox2.BackColor = System.Drawing.Color.White
+        Me.GunaLineTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaLineTextBox2.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaLineTextBox2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLineTextBox2.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaLineTextBox2.Location = New System.Drawing.Point(32, 170)
+        Me.GunaLineTextBox2.Name = "GunaLineTextBox2"
+        Me.GunaLineTextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaLineTextBox2.SelectedText = ""
+        Me.GunaLineTextBox2.Size = New System.Drawing.Size(236, 30)
+        Me.GunaLineTextBox2.TabIndex = 107
+        '
+        'GunaLineTextBox1
+        '
+        Me.GunaLineTextBox1.BackColor = System.Drawing.Color.White
+        Me.GunaLineTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaLineTextBox1.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaLineTextBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLineTextBox1.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaLineTextBox1.Location = New System.Drawing.Point(32, 93)
+        Me.GunaLineTextBox1.Name = "GunaLineTextBox1"
+        Me.GunaLineTextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaLineTextBox1.SelectedText = ""
+        Me.GunaLineTextBox1.Size = New System.Drawing.Size(236, 30)
+        Me.GunaLineTextBox1.TabIndex = 106
+        '
+        'txt_add
+        '
+        Me.txt_add.BackColor = System.Drawing.Color.White
+        Me.txt_add.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txt_add.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_add.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txt_add.LineColor = System.Drawing.Color.Gainsboro
+        Me.txt_add.Location = New System.Drawing.Point(32, 375)
+        Me.txt_add.Name = "txt_add"
+        Me.txt_add.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txt_add.SelectedText = ""
+        Me.txt_add.Size = New System.Drawing.Size(825, 38)
+        Me.txt_add.TabIndex = 105
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(895, 381)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(118, 22)
+        Me.Label9.TabIndex = 104
+        Me.Label9.Text = "العنوان الشخصي"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(345, 317)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(82, 22)
+        Me.Label8.TabIndex = 103
+        Me.Label8.Text = "رقم التأجير"
+        '
+        'txt_jf
+        '
+        Me.txt_jf.BackColor = System.Drawing.Color.White
+        Me.txt_jf.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txt_jf.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_jf.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txt_jf.LineColor = System.Drawing.Color.Gainsboro
+        Me.txt_jf.Location = New System.Drawing.Point(621, 303)
+        Me.txt_jf.Name = "txt_jf"
+        Me.txt_jf.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txt_jf.SelectedText = ""
+        Me.txt_jf.Size = New System.Drawing.Size(236, 26)
+        Me.txt_jf.TabIndex = 102
+        '
+        'txt_etatfam
+        '
+        Me.txt_etatfam.BackColor = System.Drawing.Color.Transparent
+        Me.txt_etatfam.BaseColor = System.Drawing.Color.White
+        Me.txt_etatfam.BorderColor = System.Drawing.Color.Silver
+        Me.txt_etatfam.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.txt_etatfam.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.txt_etatfam.FocusedColor = System.Drawing.Color.Empty
+        Me.txt_etatfam.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.txt_etatfam.ForeColor = System.Drawing.Color.Black
+        Me.txt_etatfam.FormattingEnabled = True
+        Me.txt_etatfam.Location = New System.Drawing.Point(621, 235)
+        Me.txt_etatfam.Name = "txt_etatfam"
+        Me.txt_etatfam.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_etatfam.OnHoverItemForeColor = System.Drawing.Color.White
+        Me.txt_etatfam.Size = New System.Drawing.Size(236, 26)
+        Me.txt_etatfam.TabIndex = 101
+        '
+        'date_nais
+        '
+        Me.date_nais.BaseColor = System.Drawing.Color.White
+        Me.date_nais.BorderColor = System.Drawing.Color.Silver
+        Me.date_nais.CustomFormat = Nothing
+        Me.date_nais.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.date_nais.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.date_nais.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.date_nais.ForeColor = System.Drawing.Color.Black
+        Me.date_nais.Location = New System.Drawing.Point(621, 151)
+        Me.date_nais.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        Me.date_nais.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        Me.date_nais.Name = "date_nais"
+        Me.date_nais.OnHoverBaseColor = System.Drawing.Color.White
+        Me.date_nais.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.date_nais.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.date_nais.OnPressedColor = System.Drawing.Color.Black
+        Me.date_nais.Size = New System.Drawing.Size(236, 40)
+        Me.date_nais.TabIndex = 100
+        Me.date_nais.Text = "2023 ,ماي 24"
+        Me.date_nais.Value = New Date(2023, 5, 24, 12, 55, 2, 318)
+        '
+        'txt_nom
+        '
+        Me.txt_nom.BackColor = System.Drawing.Color.White
+        Me.txt_nom.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txt_nom.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_nom.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txt_nom.LineColor = System.Drawing.Color.Gainsboro
+        Me.txt_nom.Location = New System.Drawing.Point(621, 84)
+        Me.txt_nom.Name = "txt_nom"
+        Me.txt_nom.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txt_nom.SelectedText = ""
+        Me.txt_nom.Size = New System.Drawing.Size(236, 30)
+        Me.txt_nom.TabIndex = 99
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(924, 302)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(87, 22)
+        Me.Label7.TabIndex = 98
+        Me.Label7.Text = "رقم ب..ت.و"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(918, 240)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(98, 22)
+        Me.Label6.TabIndex = 97
+        Me.Label6.Text = "الحالة العائلية"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(341, 240)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(86, 22)
+        Me.Label5.TabIndex = 96
+        Me.Label5.Text = "عدد الأطفال"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(332, 170)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(95, 22)
+        Me.Label4.TabIndex = 95
+        Me.Label4.Text = "مكان الإزدياد"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(918, 170)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(98, 22)
+        Me.Label3.TabIndex = 94
+        Me.Label3.Text = "تاريخ الإزدياد"
+        '
+        'prenom
+        '
+        Me.prenom.AutoSize = True
+        Me.prenom.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.prenom.Location = New System.Drawing.Point(323, 93)
+        Me.prenom.Name = "prenom"
+        Me.prenom.Size = New System.Drawing.Size(104, 22)
+        Me.prenom.TabIndex = 93
+        Me.prenom.Text = "الإسم الشخصي"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(924, 93)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(92, 22)
+        Me.Label1.TabIndex = 92
+        Me.Label1.Text = "الإسم العائلي"
+        '
+        'GunaDateTimePicker1
+        '
+        Me.GunaDateTimePicker1.BaseColor = System.Drawing.Color.White
+        Me.GunaDateTimePicker1.BorderColor = System.Drawing.Color.Silver
+        Me.GunaDateTimePicker1.CustomFormat = Nothing
+        Me.GunaDateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.GunaDateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaDateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaDateTimePicker1.ForeColor = System.Drawing.Color.Black
+        Me.GunaDateTimePicker1.Location = New System.Drawing.Point(66, 236)
+        Me.GunaDateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        Me.GunaDateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        Me.GunaDateTimePicker1.Name = "GunaDateTimePicker1"
+        Me.GunaDateTimePicker1.OnHoverBaseColor = System.Drawing.Color.White
+        Me.GunaDateTimePicker1.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaDateTimePicker1.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaDateTimePicker1.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaDateTimePicker1.Size = New System.Drawing.Size(236, 40)
+        Me.GunaDateTimePicker1.TabIndex = 118
+        Me.GunaDateTimePicker1.Text = "2023 ,ماي 24"
+        Me.GunaDateTimePicker1.Value = New Date(2023, 5, 24, 12, 55, 2, 318)
+        '
+        'GunaComboBox1
+        '
+        Me.GunaComboBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaComboBox1.BaseColor = System.Drawing.Color.White
+        Me.GunaComboBox1.BorderColor = System.Drawing.Color.Silver
+        Me.GunaComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.GunaComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.GunaComboBox1.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaComboBox1.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.GunaComboBox1.ForeColor = System.Drawing.Color.Black
+        Me.GunaComboBox1.FormattingEnabled = True
+        Me.GunaComboBox1.Location = New System.Drawing.Point(66, 90)
+        Me.GunaComboBox1.Name = "GunaComboBox1"
+        Me.GunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White
+        Me.GunaComboBox1.Size = New System.Drawing.Size(236, 26)
+        Me.GunaComboBox1.TabIndex = 117
+        '
+        'GunaLineTextBox5
+        '
+        Me.GunaLineTextBox5.BackColor = System.Drawing.Color.White
+        Me.GunaLineTextBox5.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaLineTextBox5.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaLineTextBox5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLineTextBox5.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaLineTextBox5.Location = New System.Drawing.Point(66, 323)
+        Me.GunaLineTextBox5.Name = "GunaLineTextBox5"
+        Me.GunaLineTextBox5.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaLineTextBox5.SelectedText = ""
+        Me.GunaLineTextBox5.Size = New System.Drawing.Size(236, 30)
+        Me.GunaLineTextBox5.TabIndex = 116
+        '
+        'GunaLineTextBox7
+        '
+        Me.GunaLineTextBox7.BackColor = System.Drawing.Color.White
+        Me.GunaLineTextBox7.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaLineTextBox7.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaLineTextBox7.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLineTextBox7.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaLineTextBox7.Location = New System.Drawing.Point(610, 323)
+        Me.GunaLineTextBox7.Name = "GunaLineTextBox7"
+        Me.GunaLineTextBox7.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaLineTextBox7.SelectedText = ""
+        Me.GunaLineTextBox7.Size = New System.Drawing.Size(236, 30)
+        Me.GunaLineTextBox7.TabIndex = 115
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(445, 157)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(81, 22)
+        Me.Label10.TabIndex = 114
+        Me.Label10.Text = "مقر التعيين"
+        '
+        'GunaLineTextBox6
+        '
+        Me.GunaLineTextBox6.BackColor = System.Drawing.Color.White
+        Me.GunaLineTextBox6.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaLineTextBox6.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaLineTextBox6.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLineTextBox6.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaLineTextBox6.Location = New System.Drawing.Point(610, 157)
+        Me.GunaLineTextBox6.Name = "GunaLineTextBox6"
+        Me.GunaLineTextBox6.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaLineTextBox6.SelectedText = ""
+        Me.GunaLineTextBox6.Size = New System.Drawing.Size(236, 30)
+        Me.GunaLineTextBox6.TabIndex = 113
+        '
+        'GunaLineTextBox8
+        '
+        Me.GunaLineTextBox8.BackColor = System.Drawing.Color.White
+        Me.GunaLineTextBox8.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaLineTextBox8.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaLineTextBox8.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLineTextBox8.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaLineTextBox8.Location = New System.Drawing.Point(66, 157)
+        Me.GunaLineTextBox8.Name = "GunaLineTextBox8"
+        Me.GunaLineTextBox8.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaLineTextBox8.SelectedText = ""
+        Me.GunaLineTextBox8.Size = New System.Drawing.Size(236, 30)
+        Me.GunaLineTextBox8.TabIndex = 112
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(1003, 331)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(46, 22)
+        Me.Label11.TabIndex = 111
+        Me.Label11.Text = "الرتية"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(959, 402)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(90, 22)
+        Me.Label12.TabIndex = 110
+        Me.Label12.Text = "القائم بالنيابة"
+        '
+        'GunaComboBox2
+        '
+        Me.GunaComboBox2.BackColor = System.Drawing.Color.Transparent
+        Me.GunaComboBox2.BaseColor = System.Drawing.Color.White
+        Me.GunaComboBox2.BorderColor = System.Drawing.Color.Silver
+        Me.GunaComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.GunaComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.GunaComboBox2.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaComboBox2.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.GunaComboBox2.ForeColor = System.Drawing.Color.Black
+        Me.GunaComboBox2.FormattingEnabled = True
+        Me.GunaComboBox2.Location = New System.Drawing.Point(610, 398)
+        Me.GunaComboBox2.Name = "GunaComboBox2"
+        Me.GunaComboBox2.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaComboBox2.OnHoverItemForeColor = System.Drawing.Color.White
+        Me.GunaComboBox2.Size = New System.Drawing.Size(236, 26)
+        Me.GunaComboBox2.TabIndex = 109
+        '
+        'GunaDateTimePicker2
+        '
+        Me.GunaDateTimePicker2.BaseColor = System.Drawing.Color.White
+        Me.GunaDateTimePicker2.BorderColor = System.Drawing.Color.Silver
+        Me.GunaDateTimePicker2.CustomFormat = Nothing
+        Me.GunaDateTimePicker2.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.GunaDateTimePicker2.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaDateTimePicker2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaDateTimePicker2.ForeColor = System.Drawing.Color.Black
+        Me.GunaDateTimePicker2.Location = New System.Drawing.Point(610, 236)
+        Me.GunaDateTimePicker2.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        Me.GunaDateTimePicker2.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        Me.GunaDateTimePicker2.Name = "GunaDateTimePicker2"
+        Me.GunaDateTimePicker2.OnHoverBaseColor = System.Drawing.Color.White
+        Me.GunaDateTimePicker2.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaDateTimePicker2.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaDateTimePicker2.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaDateTimePicker2.Size = New System.Drawing.Size(236, 40)
+        Me.GunaDateTimePicker2.TabIndex = 108
+        Me.GunaDateTimePicker2.Text = "2023 ,ماي 24"
+        Me.GunaDateTimePicker2.Value = New Date(2023, 5, 24, 12, 55, 2, 318)
+        '
+        'GunaLineTextBox9
+        '
+        Me.GunaLineTextBox9.BackColor = System.Drawing.Color.White
+        Me.GunaLineTextBox9.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaLineTextBox9.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaLineTextBox9.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLineTextBox9.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaLineTextBox9.Location = New System.Drawing.Point(610, 90)
+        Me.GunaLineTextBox9.Name = "GunaLineTextBox9"
+        Me.GunaLineTextBox9.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaLineTextBox9.SelectedText = ""
+        Me.GunaLineTextBox9.Size = New System.Drawing.Size(236, 30)
+        Me.GunaLineTextBox9.TabIndex = 107
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(891, 254)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(165, 22)
+        Me.Label13.TabIndex = 106
+        Me.Label13.Text = "تاريخ التعيين في الدرجة"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(376, 90)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(150, 22)
+        Me.Label14.TabIndex = 105
+        Me.Label14.Text = "الوظيفة المزاولة حاليا"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(333, 254)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(193, 22)
+        Me.Label15.TabIndex = 104
+        Me.Label15.Text = "تاريخ ولوج الوظيفة العمومية"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(1003, 157)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(53, 22)
+        Me.Label16.TabIndex = 103
+        Me.Label16.Text = "الدرجة"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(468, 331)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(58, 22)
+        Me.Label17.TabIndex = 102
+        Me.Label17.Text = "الأقدمية"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(974, 90)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(82, 22)
+        Me.Label18.TabIndex = 101
+        Me.Label18.Text = "رقم التأجير"
+        '
+        'GunaGradientButton3
+        '
+        Me.GunaGradientButton3.AnimationHoverSpeed = 0.07!
+        Me.GunaGradientButton3.AnimationSpeed = 0.03!
+        Me.GunaGradientButton3.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGradientButton3.BaseColor1 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton3.BaseColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton3.BorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton3.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaGradientButton3.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaGradientButton3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGradientButton3.ForeColor = System.Drawing.Color.Black
+        Me.GunaGradientButton3.Image = CType(resources.GetObject("GunaGradientButton3.Image"), System.Drawing.Image)
+        Me.GunaGradientButton3.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaGradientButton3.Location = New System.Drawing.Point(20, 433)
+        Me.GunaGradientButton3.Name = "GunaGradientButton3"
+        Me.GunaGradientButton3.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton3.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton3.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton3.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaGradientButton3.OnHoverImage = Nothing
+        Me.GunaGradientButton3.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaGradientButton3.Radius = 20
+        Me.GunaGradientButton3.Size = New System.Drawing.Size(144, 51)
+        Me.GunaGradientButton3.TabIndex = 77
+        Me.GunaGradientButton3.Text = "تعديل المهام"
+        '
+        'GunaGradientButton7
+        '
+        Me.GunaGradientButton7.AnimationHoverSpeed = 0.07!
+        Me.GunaGradientButton7.AnimationSpeed = 0.03!
+        Me.GunaGradientButton7.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGradientButton7.BaseColor1 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton7.BaseColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton7.BorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton7.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaGradientButton7.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaGradientButton7.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGradientButton7.ForeColor = System.Drawing.Color.Black
+        Me.GunaGradientButton7.Image = CType(resources.GetObject("GunaGradientButton7.Image"), System.Drawing.Image)
+        Me.GunaGradientButton7.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaGradientButton7.Location = New System.Drawing.Point(32, 450)
+        Me.GunaGradientButton7.Name = "GunaGradientButton7"
+        Me.GunaGradientButton7.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton7.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton7.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton7.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaGradientButton7.OnHoverImage = Nothing
+        Me.GunaGradientButton7.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaGradientButton7.Radius = 20
+        Me.GunaGradientButton7.Size = New System.Drawing.Size(144, 51)
+        Me.GunaGradientButton7.TabIndex = 77
+        Me.GunaGradientButton7.Text = "حذف موظف"
+        '
+        'GunaLineTextBox10
+        '
+        Me.GunaLineTextBox10.BackColor = System.Drawing.Color.White
+        Me.GunaLineTextBox10.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaLineTextBox10.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaLineTextBox10.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLineTextBox10.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaLineTextBox10.Location = New System.Drawing.Point(342, 108)
+        Me.GunaLineTextBox10.Name = "GunaLineTextBox10"
+        Me.GunaLineTextBox10.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaLineTextBox10.SelectedText = ""
+        Me.GunaLineTextBox10.Size = New System.Drawing.Size(236, 30)
+        Me.GunaLineTextBox10.TabIndex = 131
+        '
+        'GunaLineTextBox11
+        '
+        Me.GunaLineTextBox11.BackColor = System.Drawing.Color.White
+        Me.GunaLineTextBox11.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaLineTextBox11.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaLineTextBox11.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLineTextBox11.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaLineTextBox11.Location = New System.Drawing.Point(728, 108)
+        Me.GunaLineTextBox11.Name = "GunaLineTextBox11"
+        Me.GunaLineTextBox11.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaLineTextBox11.SelectedText = ""
+        Me.GunaLineTextBox11.Size = New System.Drawing.Size(236, 30)
+        Me.GunaLineTextBox11.TabIndex = 130
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(604, 116)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(104, 22)
+        Me.Label19.TabIndex = 129
+        Me.Label19.Text = "الإسم الشخصي"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Forte", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(991, 116)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(92, 22)
+        Me.Label20.TabIndex = 128
+        Me.Label20.Text = "الإسم العائلي"
+        '
+        'GunaGradientButton8
+        '
+        Me.GunaGradientButton8.AnimationHoverSpeed = 0.07!
+        Me.GunaGradientButton8.AnimationSpeed = 0.03!
+        Me.GunaGradientButton8.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGradientButton8.BaseColor1 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton8.BaseColor2 = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.GunaGradientButton8.BorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton8.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaGradientButton8.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaGradientButton8.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGradientButton8.ForeColor = System.Drawing.Color.Black
+        Me.GunaGradientButton8.Image = CType(resources.GetObject("GunaGradientButton8.Image"), System.Drawing.Image)
+        Me.GunaGradientButton8.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaGradientButton8.Location = New System.Drawing.Point(62, 107)
+        Me.GunaGradientButton8.Name = "GunaGradientButton8"
+        Me.GunaGradientButton8.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton8.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.GunaGradientButton8.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaGradientButton8.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaGradientButton8.OnHoverImage = Nothing
+        Me.GunaGradientButton8.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaGradientButton8.Radius = 20
+        Me.GunaGradientButton8.Size = New System.Drawing.Size(144, 51)
+        Me.GunaGradientButton8.TabIndex = 110
+        Me.GunaGradientButton8.Text = "بحث"
+        '
+        'recherche
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(227, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(1303, 709)
+        Me.Controls.Add(Me.GunaGradientButton8)
+        Me.Controls.Add(Me.GunaLineTextBox10)
+        Me.Controls.Add(Me.GunaLineTextBox11)
+        Me.Controls.Add(Me.Label19)
+        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.Panel2)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "recherche"
+        Me.Text = "recherche"
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage18.ResumeLayout(False)
+        Me.TabPage18.PerformLayout()
+        Me.TabPage17.ResumeLayout(False)
+        Me.TabPage17.PerformLayout()
+        Me.TabControl1.ResumeLayout(False)
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents GunaGradientButton9 As Guna.UI.WinForms.GunaGradientButton
+    Friend WithEvents GunaGradientButton6 As Guna.UI.WinForms.GunaGradientButton
+    Friend WithEvents GunaGradientButton5 As Guna.UI.WinForms.GunaGradientButton
+    Friend WithEvents GunaGradientButton4 As Guna.UI.WinForms.GunaGradientButton
+    Friend WithEvents GunaGradientButton1 As Guna.UI.WinForms.GunaGradientButton
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents GunaGradientButton2 As Guna.UI.WinForms.GunaGradientButton
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents TabPage18 As TabPage
+    Friend WithEvents TabPage17 As TabPage
+    Friend WithEvents TabPage16 As TabPage
+    Friend WithEvents TabPage15 As TabPage
+    Friend WithEvents TabPage14 As TabPage
+    Public WithEvents TabControl1 As TabControl
+    Friend WithEvents GunaLineTextBox4 As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents GunaLineTextBox3 As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents GunaLineTextBox2 As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents GunaLineTextBox1 As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents txt_add As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents txt_jf As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents txt_etatfam As Guna.UI.WinForms.GunaComboBox
+    Friend WithEvents date_nais As Guna.UI.WinForms.GunaDateTimePicker
+    Friend WithEvents txt_nom As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents prenom As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents GunaGradientButton7 As Guna.UI.WinForms.GunaGradientButton
+    Friend WithEvents GunaGradientButton3 As Guna.UI.WinForms.GunaGradientButton
+    Friend WithEvents GunaDateTimePicker1 As Guna.UI.WinForms.GunaDateTimePicker
+    Friend WithEvents GunaComboBox1 As Guna.UI.WinForms.GunaComboBox
+    Friend WithEvents GunaLineTextBox5 As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents GunaLineTextBox7 As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents GunaLineTextBox6 As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents GunaLineTextBox8 As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents GunaComboBox2 As Guna.UI.WinForms.GunaComboBox
+    Friend WithEvents GunaDateTimePicker2 As Guna.UI.WinForms.GunaDateTimePicker
+    Friend WithEvents GunaLineTextBox9 As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents GunaLineTextBox10 As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents GunaLineTextBox11 As Guna.UI.WinForms.GunaLineTextBox
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents GunaGradientButton8 As Guna.UI.WinForms.GunaGradientButton
+End Class

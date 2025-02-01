@@ -1,0 +1,36 @@
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\bin\Debug\GestionDesEmployees.exe.config
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\bin\Debug\GestionDesEmployees.exe
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\bin\Debug\GestionDesEmployees.pdb
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\bin\Debug\GestionDesEmployees.xml
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\bin\Debug\Guna.UI.dll
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.vbprojResolveAssemblyReference.cache
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.Form1.resources
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.Form2.resources
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.Resources.resources
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.vbproj.GenerateResource.Cache
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.exe
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.xml
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.pdb
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\bin\Debug\Gestion des employees2.accdb
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.congeevb.resources
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.daymoma.resources
+C:\Users\PC\OneDrive\Bureau\Stagaires\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.recherche.resources
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\bin\Debug\Gestion des employees2.accdb
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\bin\Debug\GestionDesEmployees.exe.config
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\bin\Debug\GestionDesEmployees.exe
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\bin\Debug\GestionDesEmployees.pdb
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\bin\Debug\GestionDesEmployees.xml
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.vbprojAssemblyReference.cache
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.congeevb.resources
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.daymoma.resources
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.Form1.resources
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.Form2.resources
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.Resources.resources
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.recherche.resources
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.vbproj.GenerateResource.cache
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.vbproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.vbproj.CopyComplete
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.exe
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.xml
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.pdb
+C:\Users\pc\Desktop\Stage\ljadid\GestionDesEmployees\GestionDesEmployees\obj\Debug\GestionDesEmployees.Form3.resources

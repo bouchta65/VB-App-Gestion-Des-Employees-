@@ -1,0 +1,186 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GestionDesEmployees
+</name>
+</assembly>
+<members>
+<member name="T:GestionDesEmployees.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:GestionDesEmployees.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:GestionDesEmployees.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:GestionDesEmployees.My.Resources.Resources._1869679">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GestionDesEmployees.My.Resources.Resources.download_removebg_preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GestionDesEmployees.My.Resources.Resources.png_clipart_graphics_illustration_court_house_angle_building_removebg_preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.CongeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.DimomaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.InfoPersonelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.InfoProfDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.NotationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.CongeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.DimomaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.InfoPersonelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.InfoProfRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.NotationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.CongeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.DimomaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.InfoPersonelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.InfoProfRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSet.NotationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.CongeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.DimomaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.InfoPersonelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.InfoProfTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.NotationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionDesEmployees.Gestion_des_employees2DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(GestionDesEmployees.Gestion_des_employees2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(GestionDesEmployees.Gestion_des_employees2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.TableAdapterManager.UpdateAll(GestionDesEmployees.Gestion_des_employees2DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GestionDesEmployees.Gestion_des_employees2DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
